@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Formulários
+        </title>
+    </head>
+    <body>
+        <h1>
+            Preencha os campos abaixo
+        </h1>
+        <forms action="destination.html" method="post">
+            <section>
+                <h3>Dados pessoais:</h3>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="texto"  placeholder="nome" id="nome"/>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="texto"  placeholder="email" id="email"/>
+                </p>
+                <p>
+                    <label for="tel">Telefone:</label>
+                    <input type="tel"  placeholder="telefone" id="tel"/>
+                </p>
+            </section>
+            <section>
+                <p>
+                    Para você, qual o melhor jogador de basquete?
+                    <input type="radio" id="1" name="jogador"/>
+                    <label for="1">Michael Jordan</label>
+                    <input type="radio" id="2" name="jogador"/>
+                    <label for="2">Kobe Bryant</label>
+                    <input type="radio" id="3" name="jogador"/>
+                    <label for="3">Lebron James</label>
+                </p>
+                <p>
+                    Para você, qual a melhor posição em um jogo de basquete?
+                    <input type="radio" id="4" name="posição"/>
+                    <label for="4">Ala</label>
+                    <input type="radio" id="5" name="posição"/>
+                    <label for="5">Ala-armador</label>
+                    <input type="radio" id="6" name="posição"/>
+                    <label for="6">Armador</label>
+                    <input type="radio" id="7" name="posição"/>
+                    <label for="7">Ala-pivô</label>
+                    <input type="radio" id="8" name="posição"/>
+                    <label for="8">Pivô</label>
+                </p>
+                <p>
+                    <label for="time">Qual o time de basquete que você torceria?</label>
+                    <select>
+                        <option>Selecione</option>
+                        <option>Boston Celtics</option>
+                        <option>Brooklyn Nets</option>
+                        <option>New York Knicks</option>
+                        <option>Philadelphia 76ers</option>
+                        <option>Toronto Raptors</option>
+                        <option>Golden State Warriors</option>
+                        <option>LA Clippers</option>
+                        <option>Los Angeles Lakers</option>
+                        <option>Phoenix Suns</option>
+                        <option>Sacramento Kings</option>
+                        <option>Chicago Bulls</option>
+                        <option>Cleveland Cavaliers</option>
+                        <option>Detroit Pistons</option>
+                        <option>Indiana Pacers</option>
+                        <option>Milwaukee Bucks</option>
+                        <option>Atlanta Hawks</option>
+                        <option>Charlotte Hornets</option>
+                        <option>Miami Heat</option>
+                        <option>Orlando Magic</option>
+                        <option>Washington Wizards</option>
+                        <option>Denver Nuggets</option>
+                        <option>Minnesota Timberwolves</option>
+                        <option>Oklahoma City Thunder</option>
+                        <option>Portland Trail Blazers</option>
+                        <option>Utah Jazz</option>
+                        <option>Dallas Mavericks</option>
+                        <option>Houston Rockets</option>
+                        <option>Memphis Grizzlies</option>
+                        <option>New Orleans Pelicans</option>
+                        <option>San Antonio Spurs</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" id="confirmar">
+                    <label for="confirmar">Autorizo compartilhar meus dados com terceiros</label>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </section>
+        </forms>
+    </body>
+</html>
